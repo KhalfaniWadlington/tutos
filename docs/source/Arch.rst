@@ -86,7 +86,7 @@ command: ``arch-chroot /mnt``.
 We need to install packages for connecting to the internet as we did on
 the start of installation. For that, we will need these packages (which
 are included on this USB version, but not on installation):
-``pacman -S dialog wpa_actiond ifplugd wpa_suppicant sudo zsh`` That
+``pacman -S dialog wpa_actiond ifplugd wpa_supplicant sudo zsh`` That
 should be sufficient for making Wi-Fi or wired connection in our new
 system, when we finish work from here. There are also two useful
 packages *sudo* and *zsh*. I will cover them in next paragraph.
